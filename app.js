@@ -8,7 +8,7 @@ const errorHandler = require('./middlewares/errorHandler');
 
 // Konfigurasi CORS
 app.use(cors({
-  origin: 'http://10.0.1.120/', // Ganti dengan URL frontend kamu (bisa `*` untuk semua origin)
+  origin: 'http://13.236.193.132/', // Ganti dengan URL frontend kamu (bisa `*` untuk semua origin)
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Sesuaikan dengan metode yang diizinkan
   allowedHeaders: ['Content-Type', 'Authorization'], // Tambahkan headers yang dibutuhkan
 }));
