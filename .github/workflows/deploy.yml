@@ -24,7 +24,6 @@ jobs:
             cd Cloud-UTS-BackEnd
             sudo git pull origin main
             # Restart Nginx or any other service if needed
-            ^C
             node app.js
           EOF
         env:
